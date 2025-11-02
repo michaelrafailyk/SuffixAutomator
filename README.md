@@ -1,3 +1,5 @@
+# Suffix Automator
+
 SuffixAutomator helps a type developers to reduce repetitive steps when writing simple OpenType features such as one-to-one substitution. It can be useful for writing a Stylistic Set feature, for generating Small Caps receipts, for wrapping characters into classes, for reverse substitution direction, for capitalization or decapitalization source and/or substituted characters, or just for sorting characters.
 
 ## Links
@@ -86,3 +88,9 @@ sub a by A.sc;
 sub A by a.sc;
 ```
 - Copy feature code to clipboard by pressing the **copy** button.
+
+## Donate
+
+This tool is free to use. If it saves you time or makes your work easier, consider supporting my work:
+
+[Ko-fi](https://ko-fi.com/michaelrafailyk), [PayPal](https://www.paypal.com/donate/?hosted_button_id=NF99TTG7WLHZS)
