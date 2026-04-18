@@ -32,6 +32,7 @@ main {
 	margin: 0 auto;
 	padding: 50px;
 	box-sizing: border-box;
+	-webkit-user-select: none;
 	user-select: none;
 }
 main > div {
@@ -89,6 +90,7 @@ main > div:last-of-type {
 	margin-left: 5px;
 	padding: 0 10px 0 5px;
 	color: #aa8278;
+	-webkit-user-select: text;
 	user-select: text;
 	outline: 0px solid transparent;
 	cursor: text;
@@ -178,6 +180,7 @@ main > div:last-of-type {
 	outline: none;
 	text-decoration: none;
 	resize: none;
+	-webkit-user-select: text;
 	user-select: text;
 	font-family: monospace, monospace;
 	font-size: 14px;
@@ -199,6 +202,7 @@ main > div:last-of-type {
 	border-radius: 5px;
 	border: 1px solid #9d9d9f;
 	color: inherit;
+	-webkit-user-select: text;
 	user-select: text;
 	font-family: monospace, monospace;
 	font-size: 14px;
