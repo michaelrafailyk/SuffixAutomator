@@ -3,9 +3,7 @@ html, body {
 	height: 100%;
 }
 body {
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: column;
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
@@ -14,8 +12,6 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	line-height: 1em;
-	-moz-font-feature-settings: 'kern';
-	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
 a {
@@ -27,30 +23,20 @@ a {
 
 main {
 	position: relative;
-	-webkit-flex: 1 0 auto;
 	flex: 1 0 auto;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-justify-content: start;
 	justify-content: start;
-	-webkit-align-items: left;
 	align-items: left;
 	width: 1280px;
 	margin: 0 auto;
 	padding: 50px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
 	user-select: none;
 }
 main > div {
 	display: inline-block;
 	position: relative;
-	-webkit-flex: 1;
 	flex: 1;
 	min-width: 200px;
 	height: 100%;
@@ -58,9 +44,7 @@ main > div {
 	margin-right: 25px;
 }
 main > div:first-of-type {
-	-webkit-flex: none;
 	flex: none;
-	-webkit-flex-basis: 320px;
 	flex-basis: 320px;
 }
 main > div:last-of-type {
@@ -68,13 +52,9 @@ main > div:last-of-type {
 }
 .header {
 	position: relative;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-justify-content: start;
 	justify-content: start;
-	-webkit-align-items: left;
 	align-items: left;
 	width: 100%;
 	height: auto;
@@ -109,13 +89,9 @@ main > div:last-of-type {
 	margin-left: 5px;
 	padding: 0 10px 0 5px;
 	color: #aa8278;
-	-moz-user-select: text;
-	-webkit-user-select: text;
-	-ms-user-select: text;
 	user-select: text;
 	outline: 0px solid transparent;
 	cursor: text;
-	-webkit-transition: margin-right .15s;
 	transition: margin-right .15s;
 }
 #suffix::before {
@@ -131,7 +107,6 @@ main > div:last-of-type {
 	height: 25px;
 	border-radius: 5px;
 	background: #fff2f0;
-	-webkit-transition: width .15s, top .15s, height .15s;
 	transition: width .15s, top .15s, height .15s;
 }
 #suffix:hover,
@@ -157,7 +132,6 @@ main > div:last-of-type {
 	background: #f1f1f3;
 	color: #7d7d7f;
 	cursor: default;
-	-webkit-transition: opacity .15s, background .15s, color .15s;
 	transition: opacity .15s, background .15s, color .15s;
 	opacity: 0;
 }
@@ -196,21 +170,14 @@ main > div:last-of-type {
 	min-height: 200px;
 	margin: 0;
 	padding: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	-webkit-appearance: none;
-	-moz-appearance: none;
 	appearance: none;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	border-radius: 5px;
 	border: 1px solid #9d9d9f;
 	outline: none;
 	text-decoration: none;
 	resize: none;
-	-moz-user-select: text;
-	-webkit-user-select: text;
-	-ms-user-select: text;
 	user-select: text;
 	font-family: monospace, monospace;
 	font-size: 14px;
@@ -228,14 +195,10 @@ main > div:last-of-type {
 	min-height: 200px;
 	margin: 0;
 	padding: 10px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border: 1px solid #9d9d9f;
 	color: inherit;
-	-moz-user-select: text;
-	-webkit-user-select: text;
-	-ms-user-select: text;
 	user-select: text;
 	font-family: monospace, monospace;
 	font-size: 14px;
@@ -269,10 +232,8 @@ main > div:last-of-type {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 25px;
-	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	pointer-events: none;
-	-webkit-transition: opacity .25s;
 	transition: opacity .25s;
 	opacity: 0;
 }
@@ -298,7 +259,6 @@ main > div:last-of-type {
 	background: #f1f1f3;
 	color: #7d7d7f;
 	cursor: default;
-	-webkit-transition: opacity .15s, background .15s, color .15s;
 	transition: opacity .15s, background .15s, color .15s;
 	opacity: 0;
 }
@@ -321,13 +281,11 @@ main > div:last-of-type {
 }
 
 footer {
-	-webkit-flex-shrink: 0;
 	flex-shrink: 0;
 	position: relative;
 	width: 1280px;
 	margin: 0 auto;
 	padding: 0 50px 50px 50px;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	text-align: left;
 	color: #7d7d7f;
@@ -368,7 +326,6 @@ footer {
 @media (max-width: 420px) {
 	.title {
 		display: block;
-		-webkit-flex-basis: 100%;
 		flex-basis: 100%;
 	}
 	.action {
