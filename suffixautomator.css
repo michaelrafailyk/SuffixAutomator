@@ -173,6 +173,7 @@ main > div:last-of-type {
 	margin: 0;
 	padding: 10px;
 	box-sizing: border-box;
+	-webkit-appearance: none;
 	appearance: none;
 	box-shadow: none;
 	border-radius: 5px;
